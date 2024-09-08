@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    display: flex;
+    /* position: fixed;   */
+    height: 80px;
+    margin-left: 200px;  
+    align-items: center;
+    margin-top: 10px;
+}
+
+#logo1{
+    width: 200px;
+    height: 40px;
+}
+#icon1{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 10px;
+}
+#icon2{
+    width: 100%;
+    height: 30px;
+    margin-left: 90px;
+}
+ul{
+    display: flex; /* Makes the list items inline */
+}
+.listItem{
+    margin: 10px 20px;
+    list-style: none;
+}
+.listItem a{
+    text-decoration: none;
+    font-size: 18px;
+    color: grey;
+}
+
+#form{
+    position: relative;
+    width: 80%;
+    margin-left:20%;
+}
+#form input{
+    padding:10px 30px;
+    border-radius: 60px;
+}
+#form-inp{
+    width: 200px;
+}
+hr{
+    color: rgba(255, 255, 255, 0.596);
+}
+/* space */
+#space{
+    margin:1% 5%;
+}
+#space h4{
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.603);
+    margin-left: 110px;
+}
+
+
+.card-head{
+    margin-left: 130px;
+      border: 1px solid rgba(240, 238, 238, 0.61);
+      border-radius: 15px;
+      width: 350px;
+      height:200px;
+      background-color: #eceaeaa8;
+      box-shadow: 0 4px 8px 0 rgba(95, 35, 35, 0.2);
+      margin-bottom: 40px;
+  }
+  .incard{
+    padding:3% 8%;
+    display: flex;
+    margin-left: 25%;
+    width: 80px;
+    height: 50px;
+}
+.incard p{
+    width: 200px;
+}
+.incard p .sp{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.822);
+}
+.cardin img{
+    width: 250px;
+    height: 50px;
+    padding-left: 10px;
+    margin-left: -70px;
+}
+
+.card-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 100%;
+}
+.card-bottom p{
+    margin-left: 94px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.card-bottom button{
+    margin-left: -140px;
+    margin-top: 50px;
+    width: 100px;
+    height: 30px;
+    color: #CECECE;
+    background-color: #969696;
+    border-radius: 30px;
+    font-size: 15px;
+    text-align: center;
+}.pt{
+    font-size:13px;
+    color: grey;    
+}
+
+.grp:hover{
+    border: 1px solid green;
+    filter: blur(1px);
+}
+#img-4,#img-5,#img-6,#img-7,#img-8,#img-9,#img-10{
+    margin-left: -90px;
+    border-radius: 50%;
+    height: 93px; 
+    width: 900px;
+}
+
+.card-cnt {
+    margin-left: 10px;
+    width: 100%;
+}
+.card-cnt p,.card-cnt .sp{
+    margin-top: 10px;
+}
+.card-cnt img{
+    margin-left: 0px;
+    width: 20px;
+    height: 20px;
+}
+.decimal{
+    font-size: 13px;
+}
+.card{
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    
+}
+
+#banner{
+    background-color:#1E3932;
+    height: 90px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ban{
+    display: flex;
+    margin-left: 140px;
+    margin-top: 40px;
+}
+#icon3{
+    width: 50px;
+    height: 20px;
+}
+#ban-c{
+    font-size: 13px;
+    color: grey;  
+    margin-right: 38px;  
+}
+#ban #line{
+    width: 20px;
+    color: rgb(218, 28, 28);
+    height: 1px;
+    z-index: 10;
+}
+#ban-bot{
+    display: flex;
+}
+#time{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: -3px;
+}
+#di,#tak{
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid grey;
+    height: 40px;
+    border-radius: 3px;
+}
+#di{
+    margin-left: 50px;
+    background-color: #fff;
+    color: #1E3932;
+}
+#di h5,#tak h5{
+    margin-top: 4px;
+    padding-right: 5px;
+}
+#tak{
+    margin-right: 200px;
+}
+
+#home{
+    width: 30px;
+    height: 20px;
+    margin-top: 5px;
+}
+#shape{
+    width: 30px;
+    height: 20px;
+    margin-top: 5px;
+}
+/* icons */
+#icons{
+    background-color: #dddad4;
+    height: 10px;
+    padding:2% 3%;
+}
+#icons ul{
+    display: flex;
+    margin-left: 30px;
+    
+}
+#icons ul li{
+    list-style-type: none;
+}
+#item1,#item2,#item3,#item4,#item5,#item6{
+    text-decoration: none;
+    color: grey;
+    margin-left: 50px;
+}
+#cards-title #h4{
+    margin-left: 130px;
+    margin-top:20px;
+}
+#cards-title #p{
+    margin-left: 130px;
+    margin-top:10px;
+    margin-bottom:30px;
+    color: rgba(51, 51, 51, 0.774);
+}
+
