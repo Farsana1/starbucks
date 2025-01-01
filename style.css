@@ -290,7 +290,6 @@
         position: absolute;
         width: 100%;
         height: 166px;
-        
      }
      #img-2{
         position: absolute;
@@ -597,6 +596,7 @@
 
 
 }
+
 #navbar{
     width: 100%;
     background-color: white;
@@ -626,7 +626,7 @@ color: green;
 }
 #icon2{
     width: 100%;
-    height: 70px;
+    height: 40px;
     margin-left: 90px;
 }
 ul{
